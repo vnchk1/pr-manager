@@ -1,0 +1,31 @@
+# Бинарные и исполняемые файлы
+/bin/
+/exe/
+*.exe
+*.out
+*.bin
+# Файлы зависимостей Go
+/vendor/
+
+# Директории IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Тестовые и временные файлы
+*.test
+*.prof
+*.log
+*.pprof
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Автогенерируемые файлы
+*.pb.go
+*.pb.gw.go
+*.grpc.pb.go
+
+plan.txt
