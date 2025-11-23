@@ -8,7 +8,7 @@
 - Go 1.24
 - Git
 
-## Запуск
+## Установка и первый запуск
 
 1. **Клонируйте репозиторий:**
 ```bash
@@ -22,6 +22,11 @@ docker-compose up --build
 ```
 
 Сервис будет доступен по адресу: `http://localhost:8080`
+
+**Следующие запуски сервиса можно выполнять командой:**
+```bash 
+docker-compose up
+```
 
 ## Доступные команды Makefile
 
@@ -90,3 +95,7 @@ make clean
 # Или только остановка
 docker-compose down
 ```
+
+## Описание конфигурации линтеров (дополнительное задание)
+
+Перейти по ссылке: https://github.com/vnchk1/pr-manager/blob/master/LinterDescription.md
